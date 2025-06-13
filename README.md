@@ -1,120 +1,92 @@
-# TextUtils
+# TextUtils 📝
 
-TextUtils is a simple yet powerful text analysis tool built with React. It provides various text manipulation features such as case conversion, text cleaning, word and character counting, and more.
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 
-## Getting Started
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://rajath2005.github.io/textutils.io/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/Rajath2005/textutils.io)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A powerful and intuitive text manipulation tool built with React. Transform, analyze, and format your text effortlessly with a modern, user-friendly interface.
 
-### Prerequisites
+## 🖼️ Demo
 
-Ensure you have **Node.js** installed on your system. You can download it from [nodejs.org](https://nodejs.org/).
+![TextUtils Demo](https://via.placeholder.com/800x400/4f46e5/ffffff?text=TextUtils+Demo+Screenshot)
 
-## Installation
+*Add your actual screenshot here by replacing the placeholder URL*
 
-Clone the repository and install dependencies:
+## ✨ Features
 
-```sh
+- **🔄 Text Transformation** - Convert to uppercase, lowercase, or capitalize
+- **🧹 Text Cleaning** - Remove extra spaces and format text
+- **📊 Analytics** - Real-time word and character counting
+- **🔊 Text-to-Speech** - Listen to your text with built-in TTS
+- **📋 Clipboard Integration** - One-click copy functionality
+- **🌙 Dark Mode** - Eye-friendly dark theme support
+- **📱 Responsive Design** - Works seamlessly on all devices
+
+## 🚀 Quick Start
+
+```bash
 # Clone the repository
 git clone https://github.com/Rajath2005/textutils.io.git
 
-# Navigate to the project directory
+# Navigate to project directory
 cd textutils.io
 
 # Install dependencies
 npm install
+
+# Start development server
+npm start
 ```
 
-## Available Scripts
+Visit `http://localhost:3000` to see the app in action.
 
-### `npm start`
+## 🛠️ Built With
 
-Runs the app in development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React** - Frontend framework
+- **Bootstrap** - UI styling
+- **JavaScript ES6+** - Core functionality
+- **Web Speech API** - Text-to-speech feature
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📦 Scripts
 
-### `npm run build`
+| Command | Description |
+|---------|-------------|
+| `npm start` | Run development server |
+| `npm run build` | Build for production |
+| `npm test` | Run test suite |
+| `npm run deploy` | Deploy to GitHub Pages |
 
-Builds the app for production to the `build` folder.\
-It bundles React in production mode and optimizes the build for best performance.
+## 🌐 Live Demo
 
-### `npm test`
+Experience TextUtils live: **[https://rajath2005.github.io/textutils.io/](https://rajath2005.github.io/textutils.io/)**
 
-Launches the test runner in interactive watch mode.
+## 🤝 Contributing
 
-### `npm run eject`
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-If you need to customize the build setup, you can run `npm run eject`. **This is irreversible!**
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Features
+## 📄 License
 
-- **Text Conversion**: Convert text to uppercase, lowercase, or capitalize each word.
-- **Text Cleaning**: Remove extra spaces for a clean and structured format.
-- **Word & Character Count**: Instantly check the total words and characters in your text.
-- **Text-to-Speech**: Let your device read the text out loud.
-- **Copy to Clipboard**: Easily copy formatted text.
-- **Dark Mode Support**: Switch between light and dark themes for a comfortable reading experience.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Deployment
+## 👨‍💻 Author
 
-### Deploying to GitHub Pages
-
-To deploy the project to GitHub Pages, follow these steps:
-
-1. Install the `gh-pages` package:
-
-   ```sh
-   npm install gh-pages --save-dev
-   ```
-
-2. Add the following scripts to your `package.json`:
-
-   ```json
-   "homepage": "https://Rajath2005.github.io/textutils.io",
-   "scripts": {
-     "predeploy": "npm run build",
-     "deploy": "gh-pages -d build"
-   }
-   ```
-
-3. Deploy the app:
-
-   ```sh
-   npm run deploy
-   ```
-
-### Deploying to Netlify or Vercel
-
-1. Create an account on [Netlify](https://www.netlify.com/) or [Vercel](https://vercel.com/).
-2. Connect your GitHub repository.
-3. Set the build command to `npm run build` and the publish directory to `build`.
-4. Deploy the project with one click.
-
-## Contributing
-
-Contributions are welcome! If you'd like to improve the project, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-branch`
-3. Commit your changes: `git commit -m "Add new feature"`
-4. Push to the branch: `git push origin feature-branch`
-5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any issues or suggestions, feel free to reach out:
-
-- GitHub: [Rajath2005](https://github.com/Rajath2005)
-- Email: [[rajathajeru@gmail.com](mailto\:rajathajeru@gmail.com)]&#x20;
+**Rajath**
+- GitHub: [@Rajath2005](https://github.com/Rajath2005)
+- Email: rajathajeru@gmail.com
 
 ---
 
-Happy coding! 🚀
-## Credits:@CodeWithHarry
-
+<div align="center">
+  <strong>⭐ Star this repository if you found it helpful!</strong>
+</div>
