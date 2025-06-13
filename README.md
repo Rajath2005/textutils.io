@@ -13,9 +13,8 @@
 
 ## 🖼️ Demo
 
-![TextUtils Demo](https://via.placeholder.com/800x400/4f46e5/ffffff?text=TextUtils+Demo+Screenshot)
+![TextUtils Demo](demo.png)
 
-*Add your actual screenshot here by replacing the placeholder URL*
 
 ## ✨ Features
 
